@@ -1,0 +1,26 @@
+@import '../../../styles/variables';
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.select-btn {
+    width: 100%;
+    background-color: $grey-color;
+    border: none;
+    border-radius: 100px;
+    padding: 13px;
+    font-size: 1.8rem;
+    font-family: $font-family;
+
+    &-selected {
+        color: $primary-color;
+        background-color: $primary_light-color;
+    }
+    &__icon {
+        font-size: 3rem;
+        margin-bottom: 8px;
+    }
+}

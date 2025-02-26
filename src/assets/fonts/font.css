@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Linotte';
+    src: url('Linotte-Bold.eot');
+    src: local('☞Linotte-Bold'), local('Linotte-Bold'),
+        url('Linotte-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Linotte-Bold.woff2') format('woff2'),
+        url('Linotte-Bold.woff') format('woff'),
+        url('Linotte-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte';
+    src: url('Linotte-SemiBold.eot');
+    src: local('☞Linotte-SemiBold'), local('Linotte-SemiBold'),
+        url('Linotte-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Linotte-SemiBold.woff2') format('woff2'),
+        url('Linotte-SemiBold.woff') format('woff'),
+        url('Linotte-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte';
+    src: url('Linotte-Regular.eot');
+    src: local('☞Linotte-Regular'), local('Linotte-Regular'),
+        url('Linotte-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Linotte-Regular.woff2') format('woff2'),
+        url('Linotte-Regular.woff') format('woff'),
+        url('Linotte-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte';
+    src: url('Linotte-Light.eot');
+    src: local('☞Linotte-Light'), local('Linotte-Light'),
+        url('Linotte-Light.eot?#iefix') format('embedded-opentype'),
+        url('Linotte-Light.woff2') format('woff2'),
+        url('Linotte-Light.woff') format('woff'),
+        url('Linotte-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotte';
+    src: url('Linotte-Heavy.eot');
+    src: local('☞Linotte-Heavy'), local('Linotte-Heavy'),
+        url('Linotte-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Linotte-Heavy.woff2') format('woff2'),
+        url('Linotte-Heavy.woff') format('woff'),
+        url('Linotte-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+

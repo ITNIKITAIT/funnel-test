@@ -1,0 +1,29 @@
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 1rem 0;
+
+    &__title {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 16px;
+
+        p {
+            font-size: 1.8rem;
+            text-align: center;
+        }
+    }
+    &__warn {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+}

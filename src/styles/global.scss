@@ -1,0 +1,53 @@
+@import '../assets/fonts/font.css';
+
+html {
+    font-size: calc(10px + 5 * ((100vw - 375px) / (480 - 375)));
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Linotte';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}

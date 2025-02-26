@@ -1,0 +1,29 @@
+@import '../../../styles/variables';
+
+.input {
+    width: 100%;
+    padding: 1.3rem 1.6rem;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    background-color: $grey-color;
+    font-size: 1.8rem;
+    font-family: $font-family;
+    outline: none;
+    &-invalid {
+        color: $primary-color;
+        background-color: $primary_light-color;
+    }
+    &-error {
+        font-size: 1.3rem;
+        color: red;
+        margin-top: 5px;
+    }
+    &::placeholder {
+        color: $grey_dark-color;
+    }
+    &:focus {
+        background-color: #fff;
+        color: black;
+    }
+}

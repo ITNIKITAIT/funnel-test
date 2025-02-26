@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+
+.btn {
+    width: 100%;
+    background-color: $primary-color;
+    color: #fff;
+    font-family: $font-family;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    padding: 13px;
+    font-size: 1.8rem;
+    transition: all 0.1s ease;
+
+    &:disabled {
+        background-color: $grey_dark-color;
+        cursor: default;
+    }
+
+    &:hover {
+        opacity: 0.85;
+    }
+}
