@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/funnel-test/static/css/main.51537f00.css",
-    "main.js": "/funnel-test/static/js/main.7dc60e16.js",
+    "main.js": "/funnel-test/static/js/main.c235cafb.js",
     "static/js/453.fa4e2258.chunk.js": "/funnel-test/static/js/453.fa4e2258.chunk.js",
     "static/media/man2.png": "/funnel-test/static/media/man2.37a9c85d8709c15a6b02.png",
     "static/media/man1.png": "/funnel-test/static/media/man1.022630a8639429cfb460.png",
@@ -33,11 +33,11 @@
     "index.html": "/funnel-test/index.html",
     "static/media/arrow.svg": "/funnel-test/static/media/arrow.79d1cbedabb9e48da2c8593562a8f1d1.svg",
     "main.51537f00.css.map": "/funnel-test/static/css/main.51537f00.css.map",
-    "main.7dc60e16.js.map": "/funnel-test/static/js/main.7dc60e16.js.map",
+    "main.c235cafb.js.map": "/funnel-test/static/js/main.c235cafb.js.map",
     "453.fa4e2258.chunk.js.map": "/funnel-test/static/js/453.fa4e2258.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51537f00.css",
-    "static/js/main.7dc60e16.js"
+    "static/js/main.c235cafb.js"
   ]
 }
