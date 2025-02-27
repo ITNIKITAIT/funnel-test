@@ -6,25 +6,25 @@ import 'react-circular-progressbar/dist/styles.css';
 import styles from './loader.module.scss';
 import ReactConfetti from 'react-confetti';
 
+const QUESTIONS = [
+    {
+        threshold: 25,
+        text: 'Is building a future with a partner who shares your long-term goals essential to you?',
+    },
+    {
+        threshold: 50,
+        text: 'Do you prioritize emotional connection and compatibility in your relationships?',
+    },
+    {
+        threshold: 75,
+        text: 'Do you prefer keeping things light and easy-going when it comes to dating?',
+    },
+];
+
 const Loader = () => {
     const [progress, setProgress] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
     const [currPopup, setCurrPopup] = useState(null);
-
-    const questions = [
-        {
-            threshold: 25,
-            text: 'Is building a future with a partner who shares your long-term goals essential to you?',
-        },
-        {
-            threshold: 50,
-            text: 'Do you prioritize emotional connection and compatibility in your relationships?',
-        },
-        {
-            threshold: 75,
-            text: 'Do you prefer keeping things light and easy-going when it comes to dating?',
-        },
-    ];
 
     useEffect(() => {
         if (isPaused) return;
@@ -38,7 +38,7 @@ const Loader = () => {
 
                 const next = prev + 1;
 
-                const nextPopup = questions.find(
+                const nextPopup = QUESTIONS.find(
                     (question) => question.threshold === next
                 );
                 if (nextPopup) {
@@ -85,7 +85,7 @@ const Loader = () => {
                 <Popup>
                     <Question
                         question={
-                            questions.find(
+                            QUESTIONS.find(
                                 (p) => p.threshold === currPopup.threshold
                             )?.text
                         }
