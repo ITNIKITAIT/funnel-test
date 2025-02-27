@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/funnel-test/static/css/main.9e0fb4c9.css",
-    "main.js": "/funnel-test/static/js/main.b17c3df1.js",
+    "main.css": "/funnel-test/static/css/main.51537f00.css",
+    "main.js": "/funnel-test/static/js/main.7dc60e16.js",
     "static/js/453.fa4e2258.chunk.js": "/funnel-test/static/js/453.fa4e2258.chunk.js",
     "static/media/man2.png": "/funnel-test/static/media/man2.37a9c85d8709c15a6b02.png",
     "static/media/man1.png": "/funnel-test/static/media/man1.022630a8639429cfb460.png",
@@ -32,12 +32,12 @@
     "static/media/information.svg": "/funnel-test/static/media/information.f560023801cf2f5c577bcaa337ee083c.svg",
     "index.html": "/funnel-test/index.html",
     "static/media/arrow.svg": "/funnel-test/static/media/arrow.79d1cbedabb9e48da2c8593562a8f1d1.svg",
-    "main.9e0fb4c9.css.map": "/funnel-test/static/css/main.9e0fb4c9.css.map",
-    "main.b17c3df1.js.map": "/funnel-test/static/js/main.b17c3df1.js.map",
+    "main.51537f00.css.map": "/funnel-test/static/css/main.51537f00.css.map",
+    "main.7dc60e16.js.map": "/funnel-test/static/js/main.7dc60e16.js.map",
     "453.fa4e2258.chunk.js.map": "/funnel-test/static/js/453.fa4e2258.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e0fb4c9.css",
-    "static/js/main.b17c3df1.js"
+    "static/css/main.51537f00.css",
+    "static/js/main.7dc60e16.js"
   ]
 }
