@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/funnel-test/static/css/main.88585304.css",
-    "main.js": "/funnel-test/static/js/main.86969513.js",
+    "main.css": "/funnel-test/static/css/main.9e0fb4c9.css",
+    "main.js": "/funnel-test/static/js/main.b17c3df1.js",
     "static/js/453.fa4e2258.chunk.js": "/funnel-test/static/js/453.fa4e2258.chunk.js",
-    "static/media/man2.png": "/funnel-test/static/media/man2.40d30daf2e40b30760fb.png",
-    "static/media/man1.png": "/funnel-test/static/media/man1.cd4d6e470e43c284d1ce.png",
+    "static/media/man2.png": "/funnel-test/static/media/man2.37a9c85d8709c15a6b02.png",
+    "static/media/man1.png": "/funnel-test/static/media/man1.022630a8639429cfb460.png",
     "static/media/woman1.jpg": "/funnel-test/static/media/woman1.0667d68762e1c17ef97a.jpg",
-    "static/media/man3.png": "/funnel-test/static/media/man3.f5e044ba391a858d475c.png",
     "static/media/Linotte-Light.eot": "/funnel-test/static/media/Linotte-Light.3a6e54fb38c48b98fcab.eot",
     "static/media/Linotte-Light.ttf": "/funnel-test/static/media/Linotte-Light.2d7ebbc93ef946e798d7.ttf",
     "static/media/Linotte-Heavy.eot": "/funnel-test/static/media/Linotte-Heavy.17635c49605d689e886d.eot",
@@ -24,6 +23,7 @@
     "static/media/Linotte-SemiBold.woff": "/funnel-test/static/media/Linotte-SemiBold.64b78318152f3721dfeb.woff",
     "static/media/Linotte-Light.woff": "/funnel-test/static/media/Linotte-Light.c7078c788f31744c271f.woff",
     "static/media/Linotte-Heavy.woff": "/funnel-test/static/media/Linotte-Heavy.8172b32f29d5f0dfea4d.woff",
+    "static/media/man3.png": "/funnel-test/static/media/man3.193a0ce921348d1da650.png",
     "static/media/Linotte-Bold.woff2": "/funnel-test/static/media/Linotte-Bold.a47f6b1da35f11bdd9bf.woff2",
     "static/media/Linotte-Regular.woff2": "/funnel-test/static/media/Linotte-Regular.a901d9bbf5b5259e6437.woff2",
     "static/media/Linotte-SemiBold.woff2": "/funnel-test/static/media/Linotte-SemiBold.65e936b0aa9dc2de16f4.woff2",
@@ -32,12 +32,12 @@
     "static/media/information.svg": "/funnel-test/static/media/information.f560023801cf2f5c577bcaa337ee083c.svg",
     "index.html": "/funnel-test/index.html",
     "static/media/arrow.svg": "/funnel-test/static/media/arrow.79d1cbedabb9e48da2c8593562a8f1d1.svg",
-    "main.88585304.css.map": "/funnel-test/static/css/main.88585304.css.map",
-    "main.86969513.js.map": "/funnel-test/static/js/main.86969513.js.map",
+    "main.9e0fb4c9.css.map": "/funnel-test/static/css/main.9e0fb4c9.css.map",
+    "main.b17c3df1.js.map": "/funnel-test/static/js/main.b17c3df1.js.map",
     "453.fa4e2258.chunk.js.map": "/funnel-test/static/js/453.fa4e2258.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88585304.css",
-    "static/js/main.86969513.js"
+    "static/css/main.9e0fb4c9.css",
+    "static/js/main.b17c3df1.js"
   ]
 }
