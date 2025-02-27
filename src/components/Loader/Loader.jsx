@@ -1,9 +1,10 @@
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import { useState, useEffect } from 'react';
-import Popup from '../Popup/Popup';
-import Question from '../../../components/Question/Question';
+import Popup from '../../shared/ui/Popup/Popup';
+import Question from '../Question/Question';
 import 'react-circular-progressbar/dist/styles.css';
 import styles from './loader.module.scss';
+import ReactConfetti from 'react-confetti';
 
 const Loader = () => {
     const [progress, setProgress] = useState(0);
@@ -69,10 +70,15 @@ const Loader = () => {
                     backgroundColor: '#3e98c7',
                 })}
             />
-            {progress !== 100 && (
+            {progress !== 100 ? (
                 <p className={styles.loader__subtitle}>
                     Analyzing your answers...
                 </p>
+            ) : (
+                <ReactConfetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                />
             )}
 
             {currPopup && (

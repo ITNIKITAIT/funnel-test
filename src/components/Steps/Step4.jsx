@@ -1,4 +1,4 @@
-import Loader from '../../shared/ui/Loader/Loader';
+import Loader from '../../components/Loader/Loader';
 import Logo from '../../shared/ui/Logo/Logo';
 import styles from './step.module.scss';
 
