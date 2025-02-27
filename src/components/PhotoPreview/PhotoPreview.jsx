@@ -31,7 +31,7 @@ const PhotoPreview = ({ photos }) => {
                             src={photo}
                         />
                     );
-                console.log('fds');
+
                 return null;
             })}
         </div>

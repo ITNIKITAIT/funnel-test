@@ -1,0 +1,17 @@
+@import '../../../styles/variables';
+
+.circle {
+    display: block;
+    width: 18rem;
+    height: 18rem;
+    margin: auto;
+    font-family: $font-family;
+}
+
+.loader {
+    &__subtitle {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: 15px;
+    }
+}

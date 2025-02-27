@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Step1 from '../Steps/Step1';
 import Step2 from '../Steps/Step2';
 import Step3 from '../Steps/Step3';
+import Step4 from '../Steps/Step4';
 
 const Home = () => {
     const [step, setStep] = useState(1);
@@ -57,6 +58,7 @@ const Home = () => {
                     prevStep={prevStep}
                 />
             )}
+            {step === 4 && <Step4 />}
         </>
     );
 };

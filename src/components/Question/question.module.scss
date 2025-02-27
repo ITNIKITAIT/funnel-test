@@ -1,4 +1,10 @@
 .question {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 480px;
+    width: 100%;
+
     &__title {
         font-weight: 700;
         font-size: 1.8rem;

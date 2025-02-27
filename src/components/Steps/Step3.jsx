@@ -21,7 +21,9 @@ const Step3 = ({ nextStep, prevStep, email, setEmail }) => {
                     email={email}
                     setEmail={setEmail}
                 />
-                <Button isDisabled={!isEmailValid}>Continue</Button>
+                <Button onClick={nextStep} isDisabled={!isEmailValid}>
+                    Continue
+                </Button>
             </div>
         </section>
     );
